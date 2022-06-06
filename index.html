@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon"
+        href="https://pt.seaicons.com/wp-content/uploads/2015/11/Calculator-icon2.png">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section>
+        <div>
+            <h3 id="final"></h3>
+        </div>
+        <form>
+            <input type="text" id="operando1">
+            <select name="operadores" id="operadores">
+                <option value="0">Operadores</option>
+                <option value=1>Soma</option>
+                <option value=2>Subtração</option>
+                <option value=3>Multiplicação</option>
+                <option value=4>Divisão</option>
+            </select>
+            <input type="text" id="operando2">
+            <button type="button" id="button">Calcular</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
